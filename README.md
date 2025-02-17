@@ -32,7 +32,7 @@
 
 - Execute o comando `npm install` na pasta do back-end para instalar todas as dependências.
 
-- Execute o comando `docker-compose up d` para rodar o docker.
+- Execute o comando `docker-compose up -d` para rodar o docker.
 
 - Execute o comando `npm run dev` para iniciar o back-end.
 
