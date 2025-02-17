@@ -85,9 +85,9 @@ export default function Login() {
                             <h1 className='font-semibold text-red-500'>{errors.password?.message}</h1>
                         )}
                     </div>
-                    <h1 className='font-semibold'>Não tem uma conta? <a className='text-blue-500' href='/register'>Clique aqui.</a></h1>
                     <Button size='lg' type='submit' disabled={loading} className='font-bold bg-blue-500 hover:bg-blue-600 disabled:bg-blue-700 disabled:opacity-100'>{loading ? (<LoaderCircle className='animate-spin'/>) : ('Entrar')}</Button>
-                    <Button className='font-bold text-gray-950' variant='ghost'>Esqueci minha senha</Button>
+
+                    <h1 className='font-semibold'>Não tem uma conta? <a className='text-blue-500' href='/register'>Clique aqui.</a></h1>
                 </form>
             </div>
             

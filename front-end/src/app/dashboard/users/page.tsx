@@ -50,10 +50,14 @@ export const columns: ColumnDef<User>[] = [
         accessorKey: 'actions',
         header: 'Ações',
         cell: ({ row }) => {
+            const id = row.getValue('id') as string
+            const name = row.getValue('name') as string
+            const role = row.getValue('role') as string
+
             return (
             <div className='flex justify-start items-center gap-2'>
-                <EditUser id={row.getValue('id')} name={row.getValue('name')} role={row.getValue('role')}/>
-                
+                <EditUser id={id} name={name} role={role}/>
+
                 <DeleteUser id={row.getValue('id')}/>
             </div>
             )

@@ -91,10 +91,6 @@ export function AppSidebar() {
                         </SidebarMenuButton>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
-                        <DropdownMenuItem>
-                            <Pen />
-                            Editar perfil
-                        </DropdownMenuItem>
                         <DropdownMenuItem onClick={userLogout} className='text-red-500'>
                             <LogOutIcon />
                             Sair
