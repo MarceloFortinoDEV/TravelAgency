@@ -56,7 +56,7 @@
 
 - Para iniciar, crie uma conta no site: https://localhost:3000/register
 
-- Por padrão a conta tem o cargo de ANALISTA, entre no banco de dados com as credências comentadas acima e execute o comando `UPDATE users SET role = 'ADMINISTRATOR' WHERE id = 1` para definir seu usuário como administrador e ter acesso a todas as funções.
+- Por padrão a conta tem o cargo de ANALISTA, entre no banco de dados com as credências comentadas acima e execute o comando `UPDATE users SET role = 'ADMINISTRATOR' WHERE id = 1;` para definir seu usuário como administrador e ter acesso a todas as funções.
 
 - Faça o update antes de realizar o login, pois o cargo fica no token, se for gerado antes da alteração, será necessário realizar o login novamente.
 
