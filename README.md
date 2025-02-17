@@ -34,8 +34,6 @@
 
 - Execute o comando `docker-compose up -d` para rodar o docker.
 
-- Execute o comando `npm run dev` para iniciar o back-end.
-
 ### Subir banco de dados
 
 - Para mexer manualmente no banco de dados execute `docker exec -it travelapi mysql -u root -p`
@@ -45,6 +43,10 @@
 - `use traveldatabase`
 
 - Na pasta back-end tem um arquivo start.sql, execute tabela por tabela para criar o banco de dados.
+
+- Para verificar se as tabelas foram criadas utilize: `SHOW tables;`
+
+- Execute o comando `npm run dev` para iniciar o back-end.
 
 ### Documentação
 
