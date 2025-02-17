@@ -10,7 +10,7 @@ CREATE TABLE agency (
     id              INT AUTO_INCREMENT PRIMARY KEY,
     name            VARCHAR(100) NOT NULL UNIQUE,
     socialName      VARCHAR(100) NOT NULL UNIQUE,
-    cnpj            INT NOT NULL UNIQUE,
+    cnpj            VARCHAR(14) NOT NULL UNIQUE,
     stateRegister   VARCHAR(100) NOT NULL UNIQUE,
     cnpjStatus      VARCHAR(100) NOT NULL,
     foundationDate  DATETIME NOT NULL
