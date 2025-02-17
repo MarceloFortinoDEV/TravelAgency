@@ -42,6 +42,8 @@
 
 - Senha: traveladmin
 
+- `use traveldatabase`
+
 - Na pasta back-end tem um arquivo start.sql, execute tabela por tabela para criar o banco de dados.
 
 ### Documentação
