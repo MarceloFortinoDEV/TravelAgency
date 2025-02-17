@@ -4,7 +4,7 @@ CREATE TABLE users (
     email    VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(100) NOT NULL,
     role     VARCHAR(100) NOT NULL
-)
+);
 
 CREATE TABLE agency (
     id              INT AUTO_INCREMENT PRIMARY KEY,
@@ -14,4 +14,4 @@ CREATE TABLE agency (
     stateRegister   VARCHAR(100) NOT NULL UNIQUE,
     cnpjStatus      VARCHAR(100) NOT NULL,
     foundationDate  DATETIME NOT NULL
-)
+);
